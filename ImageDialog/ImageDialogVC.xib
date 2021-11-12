@@ -24,31 +24,31 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x1t-N3-4Mm">
-                    <rect key="frame" x="57" y="262" width="300" height="382"/>
+                    <rect key="frame" x="30" y="245.5" width="354" height="415"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zxy-93-TwE">
-                            <rect key="frame" x="0.0" y="0.0" width="300" height="226"/>
+                            <rect key="frame" x="0.0" y="0.0" width="354" height="259"/>
                         </view>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_new_message" translatesAutoresizingMaskIntoConstraints="NO" id="ZP9-er-uFZ">
-                            <rect key="frame" x="0.0" y="20" width="300" height="186"/>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="67280" translatesAutoresizingMaskIntoConstraints="NO" id="ZP9-er-uFZ">
+                            <rect key="frame" x="0.0" y="20" width="354" height="219"/>
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="ZP9-er-uFZ" secondAttribute="height" multiplier="582:360" id="Yy0-f0-7dT"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MESSAGE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Hy-8Y-YKx">
-                            <rect key="frame" x="4" y="246" width="292" height="29"/>
+                            <rect key="frame" x="4" y="279" width="346" height="29"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                             <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sub message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFV-Jn-pJP">
-                            <rect key="frame" x="4" y="285" width="292" height="17"/>
+                            <rect key="frame" x="4" y="318" width="346" height="17"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kff-8s-8cY">
-                            <rect key="frame" x="10" y="322" width="130" height="40"/>
+                            <rect key="frame" x="10" y="355" width="157" height="40"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="40" id="qnP-Zi-7dS"/>
                             </constraints>
@@ -66,7 +66,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2l1-zo-HWz">
-                            <rect key="frame" x="160" y="322" width="130" height="40"/>
+                            <rect key="frame" x="187" y="355" width="157" height="40"/>
                             <color key="backgroundColor" red="0.0" green="0.69411764710000001" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -123,7 +123,7 @@
         </view>
     </objects>
     <resources>
-        <image name="img_new_message" width="194" height="120"/>
+        <image name="67280" width="756" height="472.33334350585938"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
